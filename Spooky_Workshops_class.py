@@ -8,9 +8,16 @@ class Spooky_Workshops():
         self.location = location
         self.duration = duration
 
-    if student1.course == 'scare':
-        name = student1.name
-
     def add_student(self, name):
         student_name = self
         student_name.list_student_monsters.append(name)
+
+Scare_Workshop = Spooky_Workshops('scare', 'ghost', 'front', '2 years', students)
+print('Should print list of students on the course "Scare": ')
+if Scare_Workshop.scary_course == Student_Monsters.course:
+    print(students.name)
+
+# lists student monsters
+# Scare_Workshop = Spooky_Workshops('paranoia', 'ghost', 'front', '2 years', students)
+# print('Should print list of students on the course "paranoia": ')
+# print(Scare_Workshop.list_student_monsters)

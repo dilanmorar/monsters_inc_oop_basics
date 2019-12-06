@@ -7,9 +7,24 @@ class Student_Monsters(Monster):
         self.grade = grade
         self.course = course
 
-student1 = Student_Monsters('Dave', '10 eyes', 'blue', '22', '1', 'pass', 'scare')
-student2 = Student_Monsters('Mike', 'intelligence', 'green', '18', '2', 'pass', 'scare')
-student3 = Student_Monsters('Randall', 'invisible', 'purple', '20', '3', 'pass', 'scare')
+    def add_skills(self, skill):
+        chosen_monster = self
+        chosen_monster.skills.append(skill)
+
+student_dict = {'student1' : "Student_Monsters('Dave', 'freaky', 'blue', '22', '1', 'pass', 'scare')",
+                'student2' : "Student_Monsters('Mike', 'intelligence', 'green', '18', '2', 'pass', 'scare')",
+                'student3' : "Student_Monsters('Randall', 'invisible', 'purple', '20', '3', 'pass', 'scare')",
+                'student4' : "Student_Monsters('Sulley', 'v.scary', 'purple and blue', '25', '4', 'pass', 'paranoia')",
+                'student5' : "Student_Monsters('Sock', 'stank', 'orange and yellow', '20', '5', 'pass', 'paranoia')",
+                'student6' : "Student_Monsters('Bully', 'agression', 'purple and green', '23', '6', 'pass', 'paranoia')",
+}
+
+print(student_dict.values(student1))
+
+# print(student1.skills)
+# student1.add_skills('stretchy arms')
+# print(student1.skills)
+
 
 # print('Should print student monster name: ')
 # print(student1.name)
