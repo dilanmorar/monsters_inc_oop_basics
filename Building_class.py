@@ -1,5 +1,3 @@
 class Building():
-    def __init__(self, location, floors, rooms):
+    def __init__(self, location):
         self.location = location
-        self.floors = floors
-        self.rooms = rooms

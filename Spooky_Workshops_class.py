@@ -1,21 +1,21 @@
 from Student_Monsters_class import *
 
 class Spooky_Workshops():
-    def __init__(self, course, staff, location, duration, student = []):
-        self.scary_course = course
+    def __init__(self, subject, staff, location, student_list):
+        self.scary_subject = subject
         self.staff = staff
-        self.list_student_monsters = student
+        self.list_student_monsters = student_list
         self.location = location
-        self.duration = duration
 
-    def add_student(self, name):
+    def add_students(self, student):
         student_name = self
-        student_name.list_student_monsters.append(name)
+        student_name.list_student_monsters.append(student)
 
-Scare_Workshop = Spooky_Workshops('scare', 'ghost', 'front', '2 years', students)
-print('Should print list of students on the course "Scare": ')
-if Scare_Workshop.scary_course == Student_Monsters.course:
-    print(students.name)
+scary_workshop = Spooky_Workshops('scary', 'none', 'front', [])
+
+print(scary_workshop.list_student_monsters)
+scary_workshop.add_students('Dave')
+print(scary_workshop.list_student_monsters)
 
 # lists student monsters
 # Scare_Workshop = Spooky_Workshops('paranoia', 'ghost', 'front', '2 years', students)
