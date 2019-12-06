@@ -1,8 +1,8 @@
 from Monster_class import *
 
 class Student_Monsters(Monster):
-    def __init__(self, name, skills, student_id, grade):
-        super().__init__(name, skills)
+    def __init__(self, name, colour, age,  skills, student_id, grade):
+        super().__init__(name, colour, age,  skills)
         self.student_id = student_id
         self.grade = grade
 
