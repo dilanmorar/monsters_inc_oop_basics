@@ -1,0 +1,9 @@
+- create 3 student monsters
+- add these to an empty list
+- create empty list for running workshops
+- create 3 spooky_workshops
+- add each workshop to list_of_running_workshops
+- iterate over the student list
+- call method to should the grade of the student and print
+- for each workshop
+- call the method add_student and pass in student_id
