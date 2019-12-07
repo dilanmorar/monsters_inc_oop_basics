@@ -6,6 +6,10 @@ class Student_Monsters(Monster):
         self.student_id = student_id
         self.grade = grade
 
+# print(student1.skills)
+# # student1.add_skills('stretchy arms')
+# # print(student1.skills)
+
 # ex_student = Student_Monsters('Dave', ['freaky'], '1', 'pass')
 #
 # print('Should print student monster name: ')
