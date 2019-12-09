@@ -2,6 +2,18 @@ from Student_Monsters_class import *
 from Lecture_Theatres_class import *
 from Spooky_Workshops_class import *
 
+student1 = Student_Monsters('Dave', 'freaky', '1', 'pass')
+student2 = Student_Monsters('Mike', 'intelligence', '2', 'pass')
+student3 = Student_Monsters('Randall', 'invisible', '3', 'pass')
+students = []
+students.extend([student1, student2, student3])
+
+workshop1 = Spooky_Workshops('Scare', 'Prof. Scary', 'Scary Building', [])
+workshop2 = Spooky_Workshops('Strength', 'Prof. Strength', 'Strength Building', [])
+workshop3 = Spooky_Workshops('Invisiblity', 'Prof. Invisibility', 'Invisibility Building', [])
+running_workshops = []
+running_workshops.extend([workshop1, workshop2, workshop3])
+
 while True:
     print('Choose option: ')
     print('1. create a monster')

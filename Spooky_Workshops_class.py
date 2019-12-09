@@ -14,12 +14,8 @@ class Spooky_Workshops():
 workshop1 = Spooky_Workshops('Scare', 'Prof. Scary', 'Scary Building', [])
 workshop2 = Spooky_Workshops('Strength', 'Prof. Strength', 'Strength Building', [])
 workshop3 = Spooky_Workshops('Invisiblity', 'Prof. Invisibility', 'Invisibility Building', [])
-
 running_workshops = []
-running_workshops.append(workshop1)
-running_workshops.append(workshop2)
-running_workshops.append(workshop3)
-print(running_workshops)
+running_workshops.extend([workshop1, workshop2, workshop3])
 
 # workshop1 = Spooky_Workshops('scary', 'none', 'front', [])
 
