@@ -7,8 +7,8 @@ class Student_Monsters(Monster):
         self.grade = grade
 
 # print(student1.skills)
-# # student1.add_skills('stretchy arms')
-# # print(student1.skills)
+# student1.add_skills('stretchy arms')
+# print(student1.skills)
 
 # ex_student = Student_Monsters('Dave', ['freaky'], '1', 'pass')
 #

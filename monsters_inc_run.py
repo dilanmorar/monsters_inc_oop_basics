@@ -10,7 +10,10 @@ student3 = Student_Monsters('Randall', 'invisible', '3', 'pass')
 # students added to an empty list
 students = []
 print(students)
-students.append(student1.name)
+students.append(student1)
+students.append(student2)
+students.append(student3)
+# students.extend(student1, student2, student3)
 print(students)
 
 # create 3 spooky workshops
@@ -21,8 +24,32 @@ workshop3 = Spooky_Workshops('Invisiblity', 'Prof. Invisibility', 'Invisibility 
 # workshops added to list of running workshops
 running_workshops = []
 print(running_workshops)
-running_workshops.append(workshop1.scary_subject)
+running_workshops.append(student1)
+running_workshops.append(student2)
+running_workshops.append(student3)
+# running_workshops.extend(workshop1, workshop2, workshop3)
 print(running_workshops)
+
+# iterate over the list of workshops and print
+# number_of_running_workshops = len(running_workshops)
+# count = 0
+# while count<=number_of_running_workshops:
+#     print((running_workshops[count].location))
+#     count+=1
+#
+for subject in running_workshops:
+    print(subject)
+
+# iterate over the student list
+# number_of_students = len(students)
+# count = 0
+# while count<=number_of_students:
+#     print((student[count]))
+#     count+=1
+
+for student in students:
+    print(student)
+
 
 # show grade of student
 print(student1.grade)

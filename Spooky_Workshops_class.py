@@ -11,11 +11,21 @@ class Spooky_Workshops():
         student_name = self
         student_name.list_students.append(student)
 
-# scary_workshop = Spooky_Workshops('scary', 'none', 'front', [])
-#
-# print(scary_workshop.list_student_monsters)
-# scary_workshop.add_students('Dave')
-# print(scary_workshop.list_student_monsters)
+workshop1 = Spooky_Workshops('Scare', 'Prof. Scary', 'Scary Building', [])
+workshop2 = Spooky_Workshops('Strength', 'Prof. Strength', 'Strength Building', [])
+workshop3 = Spooky_Workshops('Invisiblity', 'Prof. Invisibility', 'Invisibility Building', [])
+
+running_workshops = []
+running_workshops.append(workshop1)
+running_workshops.append(workshop2)
+running_workshops.append(workshop3)
+print(running_workshops)
+
+# workshop1 = Spooky_Workshops('scary', 'none', 'front', [])
+
+# print(workshop1.list_students)
+# workshop1.add_students('Dave')
+# print(workshop1.list_students)
 
 # lists student monsters
 # Scare_Workshop = Spooky_Workshops('paranoia', 'ghost', 'front', '2 years', students)
