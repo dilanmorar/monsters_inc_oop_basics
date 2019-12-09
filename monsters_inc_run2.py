@@ -2,22 +2,6 @@ from Student_Monsters_class import *
 from Lecture_Theatres_class import *
 from Spooky_Workshops_class import *
 
-student1 = Student_Monsters('Dave', 'freaky', '1', 'pass')
-student2 = Student_Monsters('Mike', 'intelligence', '2', 'pass')
-student3 = Student_Monsters('Randall', 'invisible', '3', 'pass')
-students = []
-students.append(student1)
-students.append(student2)
-students.append(student3)
-
-workshop1 = Spooky_Workshops('Scare', 'Prof. Scary', 'Scary Building', [])
-workshop2 = Spooky_Workshops('Strength', 'Prof. Strength', 'Strength Building', [])
-workshop3 = Spooky_Workshops('Invisiblity', 'Prof. Invisibility', 'Invisibility Building', [])
-running_workshops = []
-running_workshops.append(workshop1)
-running_workshops.append(workshop2)
-running_workshops.append(workshop3)
-
 while True:
     print('Choose option: ')
     print('1. create a monster')
@@ -86,13 +70,3 @@ while True:
 
     else:
         break
-
-# ask for info
-# evaluate info
-# say which option you chose
-# 1. create a monster
-# 2. list all workshops
-# 3. add students to workshops
-# 4. see students grade
-# 5. students full information
-# 6. search for student by name

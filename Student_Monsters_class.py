@@ -6,6 +6,14 @@ class Student_Monsters(Monster):
         self.student_id = student_id
         self.grade = grade
 
+student1 = Student_Monsters('Dave', 'freaky', '1', 'pass')
+student2 = Student_Monsters('Mike', 'intelligence', '2', 'pass')
+student3 = Student_Monsters('Randall', 'invisible', '3', 'pass')
+students = []
+students.append(student1)
+students.append(student2)
+students.append(student3)
+
 # print(student1.skills)
 # student1.add_skills('stretchy arms')
 # print(student1.skills)
